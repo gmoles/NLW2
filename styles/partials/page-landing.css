@@ -1,0 +1,147 @@
+#page-landing{
+    background: var(--color-primary);
+}
+
+#page-landing #container{
+    color: var(--color-text-in-primary);
+}
+
+.logo-container img{
+    height: 10rem;
+}
+
+.logo-container{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.logo-container h2{
+    font-weight: 500;
+    font-size: 3.6;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+} 
+
+.hero-image{
+    width: 100%;
+}
+
+/* Definicoes dos Botoes */
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
+.buttons-container a{
+    width: 30rem;
+    height: 10.4rem;
+    
+    border-radius: 0.8rem;
+    margin-right: 1.2rem;
+
+    font: 700 2.4rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.2s; /* suaviza o efeito do hover*/
+
+    color: var(--color-button-test);
+}
+
+.buttons-container a img{
+    width: 4rem;
+    margin-right: 2.4rem;
+}
+
+.buttons-container a.study{
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.study:hover{ /* hoer e quando o mouse esta em cima do elemento*/
+    background: var(--color-primary-light);
+}
+
+.buttons-container a.give-classes{
+    background: var(--color-secondary);
+    margin-right: 0;
+}
+
+.buttons-container a.give-classes:hover{
+    background: var(--color-secondary-dark);
+}
+/* Fim definicao dos bottoes */
+
+.total-connections{
+    font-size: 1.8rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.total-connections img{
+    margin-left: 0.8rem;
+}
+
+
+@media (max-width: 699px){
+    :root{
+        font-size: 40%;
+    }
+}
+
+
+
+ /* Instrucao para quando a largura minima for 
+    de 1100 pixels aumentar o max width de 
+    700px(definido no main.css) para 1100px
+ */
+@media (min-width: 1100px) {
+ 
+    #page-landing #container{
+        max-width: 1110px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 350px 1fr;
+        grid-template-areas: /* definindo as areas do grid*/
+        "proffy image image"
+        "button button texting";
+        column-gap: 87px;
+        row-gap: 86px;
+
+    }
+
+    .logo-container{
+        grid-area: proffy;
+        text-align: initial;
+        align-self: center; /* todo conteudo dentro da area do grid alinhada ao centro */
+        margin: 0;
+    }
+
+    .logo-container img{
+        height: 100%;
+    }
+
+    .hero-image{
+        grid-area: image;
+        width: 100%;
+        height: 350px;
+    }
+
+    .buttons-container{
+        grid-area: button;
+        margin: 0;
+        justify-content: flex-start; /* sobreescreve o justify content do botao original em vez do centro agora no conteudo do flex*/
+    }
+
+    .total-connections{
+        font-size: 1.3rem;
+        grid-area: texting;
+        justify-self: end;
+        align-self: center;
+    }
+}
