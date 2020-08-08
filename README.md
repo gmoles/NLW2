@@ -2,19 +2,19 @@
 NLW#2
 Projeto de Desenvolvimento Web 
 
-## ?? Índice
+## ğŸ“‘ Ãndice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Design](#-design)
 - [Executar esse projeto no seu computador](#Executar-esse-projeto-no-seu-computador)
-- [Licença](#-licença)
+- [LicenÃ§a](#-licenÃ§a)
 
-## ?? Sobre o Projeto
+## ğŸ’¡ Sobre o Projeto
 
-Criação do Proffy, uma plataforma para conexão professores e alunos.
+CriaÃ§Ã£o do Proffy, uma plataforma para conexÃ£o professores e alunos.
 
-## ?? Tecnologias utilizadas
+## ğŸš€ Tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -22,7 +22,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - HTML5 e CSS3
 - NodeJS
 
-## ?? Design
+## ğŸ¨ Design
 
 Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/)
 
@@ -32,23 +32,23 @@ Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/
     <td colspan="2">Mobile</td>
   </tr>
   <tr>
-    <td><img src="./readme/preview-web.png" width=300 /></td><td><img src="./readme/Formulário.png" width=300 /></td>
+    <td><img src="./readme/preview-web.png" width=300 /></td><td><img src="./readme/FormulÃ¡rio.png" width=300 /></td>
     <td><img src="./readme/preview-mobile.png" width=180 /></td><td><img src="./readme/Home-mobile.png" width=180 /></td>
   </tr>
 </table>
 
 
-## ?? Executar esse projeto no seu computador
+## ğŸ“¥ Executar esse projeto no seu computador
 
-- Clonar Repositório: `git clone https://github.com/GuilhermeMoles/NLW2.git`
+- Clonar RepositÃ³rio: `git clone https://github.com/GuilhermeMoles/NLW2.git`
 
 Ir para a pasta 'web' para rodar o front-end, ou ir para pasta 'server' para rodar o back-end:
 
-- Instalar dependências: `yarn install`
-- Rodar Aplicação: `yarn start`
+- Instalar dependÃªncias: `yarn install`
+- Rodar AplicaÃ§Ã£o: `yarn start`
 
 
-## ?? Licença
+## ğŸ“• LicenÃ§a
 
-Todos os arquivos incluídos aqui, incluindo este _README_, estão sob [Licença MIT](./LICENSE).<br>
-Criado com por [Guilherme Moles](https://github.com/GuilhermeMoles)
+Todos os arquivos incluÃ­dos aqui, incluindo este _README_, estÃ£o sob [LicenÃ§a MIT](./LICENSE).<br>
+Criado por [Guilherme Moles](https://github.com/GuilhermeMoles)
