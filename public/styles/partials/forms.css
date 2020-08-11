@@ -1,4 +1,4 @@
-/* Formulários */
+/* Formulï¿½rios */
 .select-block label,
 .input-block label {
     font-size: 1.4rem;
@@ -30,7 +30,7 @@
     position: relative;
     }
 
-/* posicionamento dinâmico da linha sobre o input box */
+/* posicionamento dinï¿½mico da linha sobre o input box */
 .input-block:focus-within::after,
 textarea-block:focus-within::after {
     content:"";
@@ -44,4 +44,10 @@ textarea-block:focus-within::after {
     right: 1.6rem;
     bottom: 0px;
 }
-/* Final Formulários */
+/* Final Formulï¿½rios */
+
+label small {
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+    color: var(--color-small-info);
+}

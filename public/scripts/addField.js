@@ -24,11 +24,12 @@ function cloneField(){
 
     //Para cada campo, Limpar
     //Pegar o field do momento
+    /*
     fields.foreach(function(field){
          //Limpa o Field do momento 
         field.value = ""
     })
-
+    */
     //Colocar na Pagina, em qual lugar?
     document.querySelector('#schedule-items').appendChild(newFieldContainer) 
     // Primeiro ele Clona depois ele coloca no id #schedule-items com o comando appendChild

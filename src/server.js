@@ -1,16 +1,29 @@
-require('express')()
+//Criando servidor para aplicação 
+//(npm run dev) para rodar o Servidor
+const express  = require('express')
+const server   = express()
 
-.get("/", (req,res) => {
-    return res.send("Hi from NLW")
+const {pageLanding, pageStudy, pageGiveClasses} = require("./pages")
+
+//Configurar Nunjucks
+const nunjucks = require('nunjucks') 
+
+nunjucks.configure('src/views',{
+    express: server,
+    noCache: true,
 })
 
-.get("/study", (req,res) => {
-    return res.send("Pagina study")
-})
 
+//Start do Server
+server
+//Configurar arquivos estáticos (css, scripts, imagens)
+.use(express.static("public"))
+
+//Rotas da aplicação 
+.get("/", pageLanding)
+.get("/study", pageStudy)
+.get("/give-classes", pageGiveClasses)
 .listen(5500)
-
-
 
 /*
 function express(){

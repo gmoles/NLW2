@@ -40,7 +40,7 @@
   width: 90%;
   margin: 3.2rem auto;
 
-  position: relative; /*mega importante para posição do menu desktop */
+  position: relative; /*mega importante para posiï¿½ï¿½o do menu desktop */
 }
 
 .page-header .header-content strong {
@@ -82,7 +82,7 @@
   background-color: var(--color-secondary-dark);
 }
 
-/* Formulários 
+/* Formulï¿½rios 
 .select-block label,
 .input-block label {
   font-size: 1.4rem;
@@ -103,7 +103,7 @@
 .input-block {
   position: relative;
 }
-/* posicionamento dinâmico da linha sobre o input box 
+/* posicionamento dinï¿½mico da linha sobre o input box 
 .input-block:focus-within::after {
   content:"";
   width: calc(100% - 3.2rem);
@@ -114,9 +114,9 @@
   right: 1.6rem;
   bottom: 0px;
 }
-/* Final Formulários */
+/* Final Formulï¿½rios */
 
-/* Atenção a essa parte  */
+/* Atenï¿½ï¿½o a essa parte  */
 #page-study main {
   margin: 3.2rem auto;
   width: 90%;
@@ -157,7 +157,7 @@
   margin-top: .4rem;
 }
 
-/* O sinal ">" antes do "p" simboliza os níveis de parágrafo; sem ele o texto não alinha corretamente */
+/* O sinal ">" antes do "p" simboliza os nï¿½veis de parï¿½grafo; sem ele o texto nï¿½o alinha corretamente */
 .teacher-item > p {
   padding: 0 2rem;
   font-size: 1.6rem;
@@ -187,7 +187,7 @@
   display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer .button  {
   width: 20rem;
   height: 5.6rem;
   background: var(--color-secondary);
@@ -265,7 +265,7 @@
     margin-bottom: 0;
   }
 
-  /* O sinal ">" antes do "p" simboliza os níveis de parágrafo; sem ele o texto não alinha corretamente */
+  /* O sinal ">" antes do "p" simboliza os nï¿½veis de parï¿½grafo; sem ele o texto nï¿½o alinha corretamente */
   .teacher-item > p {
     padding: 0 32px;
   }
