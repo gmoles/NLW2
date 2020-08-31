@@ -117,9 +117,17 @@
 /* Final Formul�rios */
 
 /* Aten��o a essa parte  */
+
 #page-study main {
   margin: 3.2rem auto;
   width: 90%;
+}
+
+#page-study main .no-results {
+  max-width: 30rem;
+  margin: 12rem auto;
+  text-align: center;
+
 }
 
 .teacher-item {

@@ -1,5 +1,5 @@
 module.exports = async function (db, {proffyValue, classValue, classScheduleValues}) {
-
+    
     // Inserir dados na table de Teachers
     const insertedProffy = await db.run(`
         INSERT INTO proffys (
@@ -52,5 +52,5 @@ module.exports = async function (db, {proffyValue, classValue, classScheduleValu
     // Inserir dados na tabela de ClassSchedule
     await Promise.all(insertedAllclassScheduleValues)
 
-
+    
 }

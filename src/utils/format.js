@@ -25,12 +25,16 @@ function getSubject(subjectNumber){
 }
 
 function convertHourToMinutes(time){
-    const hour    = time.split(":",1)
-    const minutes = time.split(":",2)
+    const [hour, minutes] = time.split(":")
+    return Number((hour * 60) + minutes)
 }
+
+    //const hour    = time.split(":",2)
+    //const minutes = time.split(":",2)
 
 module.exports = {
     subjects,
     weekdays,
-    getSubject
-}
+    getSubject,
+    convertHourToMinutes
+} 

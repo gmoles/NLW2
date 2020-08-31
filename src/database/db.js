@@ -31,4 +31,5 @@ function execute(db){
     `)
 }
 
+//console.log("Banco Criado")
 module.exports = Database.open(__dirname + "/database.sqlite").then(execute)
